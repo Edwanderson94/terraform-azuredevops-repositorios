@@ -2,12 +2,15 @@
 # Módulo `Terraform-AzureDevOps-Repositório`
 
 Bem-vindo ao módulo Terraform para o Azure DevOps, projetado para facilitar a criação de múltiplos repositórios.
+Nesse módulo estamos utilizando terraform e terragrunt para fazer a chamada desse modulo, veja na pasta example para obter maiores informações.
 
 ## Objetivo
 
 Este módulo tem como propósito:
 - Provisionar múltiplos repositórios no Azure DevOps.
 - Configurar a branch padrão (*default branch*) para cada repositório criado.
+
+---
 
 ## Requirements
 
@@ -49,6 +52,8 @@ No modules.
 | <a name="output_module_version"></a> [module\_version](#output\_module\_version) | Versão do módulo |
 | <a name="output_repository_urls"></a> [repository\_urls](#output\_repository\_urls) | Lista de URLs dos repositórios criados |
 
+---
+
 # Considerações Finais
 
 Este módulo foi desenvolvido inicialmente para atender às necessidades dos meus projetos e estudos pessoais. No entanto, sua estrutura foi pensada de forma simples e funcional, permitindo a criação de múltiplos repositórios simultaneamente. Espero que este módulo também seja útil para outros desenvolvedores e profissionais que compartilhem da mesma necessidade.
@@ -66,8 +71,4 @@ Contribuições são muito bem-vindas! Se você deseja colaborar, siga as instru
 
 Agradecemos pela sua colaboração e interesse!
 
----
-
-**Desenvolvido por**
-Edwanderson Luiz Pereira
 <!-- END_TF_DOCS -->
